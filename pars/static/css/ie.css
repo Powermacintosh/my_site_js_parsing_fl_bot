@@ -1,0 +1,16 @@
+#header {
+	background: #35383C;
+}
+#footer .connect input {
+	box-shadow: 0px 0px 2px 1px #1d1f21;
+	behavior: url(css/PIE.htc);
+	position:relative;
+}
+ol li {
+	list-style-type:expression(
+		function(t){
+			t.runtimeStyle.listStyleType = 'none';
+			t.insertAdjacentHTML('afterBegin','<span class="list-item-before">' + (++t.parentNode.IEcounter || (t.parentNode.IEcounter = 1)) + '. </span>');
+		}(this)
+	);
+}

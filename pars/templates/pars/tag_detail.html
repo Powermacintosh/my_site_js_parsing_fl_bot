@@ -1,0 +1,18 @@
+{% extends 'pars/base_blog.html' %}
+
+
+
+{% block content %}
+	<h1> 
+		Привязка всех публикаций к тэгу "{{ tag.title|title }}"
+	</h1>
+	{% for f in tag.posts_mtm.all %}
+	<table>
+		<tbody>
+			<tr>
+				{% include 'pars/includes/post_card_template.html' %}
+			</tr>
+		</tbody>
+	</table>
+	{% endfor %}
+{% endblock %}

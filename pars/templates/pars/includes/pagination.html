@@ -1,0 +1,22 @@
+
+{% if is_paginated %}
+<ul class="paging">
+	<li {% if not prev_url %} disabled {% endif %}>
+		<a href="{{ prev_url }}"><</a>	
+	</li>
+	{% for n in page_object.paginator.page_range %} 
+		{% if page_object.number == n %}
+			<li>
+				<a class="active" href="?page={{ n }}{% if search_query %}&search={{ search_query }}{% endif %}">{{ n }}</a>	
+			</li>
+		{% elif n > page_object.number|add:-3 and n < page_object.number|add:3 %}
+			<li>
+				<a href="?page={{ n }}{% if search_query %}&search={{ search_query }}{% endif %}">{{ n }}</a>	
+			</li>
+		{% endif %}
+	{% endfor %}
+	<li {% if not next_url %} disabled {% endif %}>
+		<a href="{{ next_url }}">></a>	
+	</li>
+</ul>
+{% endif %}

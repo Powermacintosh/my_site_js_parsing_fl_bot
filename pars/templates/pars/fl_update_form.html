@@ -1,0 +1,26 @@
+{% extends 'pars/base_blog.html' %}
+
+
+{% block content %}
+<h1></h1>
+<form action="{% url 'fl_update_url' slug=fl.slug %}" method="post" enctype="multipart/form-data">
+	{% csrf_token %}
+
+	{% for field in form %}
+	<h1>
+	<div class="form-group">
+			{% if field.errors %}
+			<div class="alert alert-danger">
+				{{ field.errors }}
+			</div>
+			{% endif %}
+			{{ field.label }}
+			{{ field }}
+		</div>
+		</h1>
+	{% endfor %}
+
+	<button type="submit" name="button" class="btn btn-primary">Update Fl</button>
+</form>
+
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends 'pars/base_blog.html' %}
+
+
+{% block content %}
+
+	<h1>
+		Tags:
+	</h1>
+	{% for tag in tags %}
+	<p>
+		<a href="{{ tag.get_absolute_url }}">{{ tag.title }}</a>
+	</p>
+
+	{% endfor %}
+{% endblock %}

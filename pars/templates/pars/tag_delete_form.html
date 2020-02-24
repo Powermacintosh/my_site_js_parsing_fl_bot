@@ -1,0 +1,15 @@
+{% extends 'pars/base_blog.html' %}
+
+
+
+{% block content %}
+	<h1>
+		Posts with "{{ tag.title|title }}" tag:
+	</h1>
+	<form action="{% url 'tag_delete_url' slug=tag.slug %}" method="POST">
+		{% csrf_token %}
+		<h3>Are you sure you want to delete <b>"{{ tag.title|title }}"<b/> tag?</h3>
+			<a href="{% url 'tag_detail_url' slug=tag.slug %}">Cancel</a>
+			<button type="submit" name="button" class="btn btn-danger">Delete</button>
+	</form>
+{% endblock %}

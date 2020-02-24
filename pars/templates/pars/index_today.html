@@ -1,0 +1,15 @@
+{% extends "pars/base_blog.html" %}
+
+
+{% block content %}
+{% for f in page_object.object_list %}
+<table>
+	<tbody>
+		<tr>
+		{% include 'pars/includes/post_card_template.html' %}
+		</tr>
+	</tbody>
+</table>
+{% endfor %}
+{% include 'pars/includes/pagination.html' %}
+{% endblock %}

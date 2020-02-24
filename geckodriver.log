@@ -1,0 +1,100 @@
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1581512373187	Marionette	INFO	Stopped listening on port 59628
+1581512595090	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fs/kzt1sbhs5nngxln61wv8c6fc0000gn/T/rust_mozprofile.UDfcRqUZRPYg"
+1581512595645	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581512596021	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581512596021	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581512596021	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581512596021	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581512597675	Marionette	INFO	Listening on port 62189
+1581512597770	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+JavaScript error: chrome://browser/content/browser-safebrowsing.js, line 15: TypeError: gBrowser is undefined
+1581512885860	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fs/kzt1sbhs5nngxln61wv8c6fc0000gn/T/rust_mozprofile.1VLdQV31eHU2"
+1581512886406	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581512886681	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581512886681	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581512886682	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581512886682	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581512888264	Marionette	INFO	Listening on port 63723
+1581512888336	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+1581513009355	Marionette	INFO	Stopped listening on port 63723
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1581513012049	Marionette	INFO	Stopped listening on port 62189
+1581513021699	Marionette	INFO	Stopped listening on port 49812
+1582113400374	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wy/7_mv5n793vg_bqc45wn1vvth0000gn/T/rust_mozprofile.DBfl9CmLDcvX"
+1582113407687	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582113407688	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582113407688	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582113407688	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582113411057	Marionette	INFO	Listening on port 58611
+1582113411150	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+1582113433187	Marionette	INFO	Stopped listening on port 58611
+1582115787710	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wy/7_mv5n793vg_bqc45wn1vvth0000gn/T/rust_mozprofile.6Jp6mXReXf9Z"
+1582115789183	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582115789184	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582115789184	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582115789184	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582115792163	Marionette	INFO	Listening on port 56145
+1582115792196	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+1582115859536	Marionette	INFO	Stopped listening on port 56145
+1582361406863	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/wy/7_mv5n793vg_bqc45wn1vvth0000gn/T/rust_mozprofile.R5xABEHMAMuZ"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1582361408180	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582361408353	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582361408353	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582361408354	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582361408355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582361410400	Marionette	INFO	Listening on port 49263
+1582361508203	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/wy/7_mv5n793vg_bqc45wn1vvth0000gn/T/rust_mozprofile.KXVOEQkOd3zR"
+*** You are running in headless mode.
+1582361508565	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582361508658	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582361508658	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582361508658	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582361508658	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582361510210	Marionette	INFO	Listening on port 49296
+1582361510249	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+1582361546280	Marionette	INFO	Stopped listening on port 49296
+1582386936510	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/wy/7_mv5n793vg_bqc45wn1vvth0000gn/T/rust_mozprofile.pte5qGBjF9ou"
+*** You are running in headless mode.
+1582386937283	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582386937426	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582386937426	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582386937427	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582386937427	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582386939363	Marionette	INFO	Listening on port 51406
+1582386939381	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 57: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 57: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+JavaScript error: https://advanced.name/build/js/guest-vendor-dc869782.js, line 5: TypeError: 1 is not a function
+1582387027800	Marionette	INFO	Stopped listening on port 51406
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

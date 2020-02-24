@@ -1,0 +1,47 @@
+/* Custom CSS */
+
+/* change background color */
+/*body { 
+	background-color: #cc0000; 
+}*/
+
+/* change background texture and background color */
+/*body { 
+	background: #4e4e4e url(../demo/images/pattern-7.png); 
+}*/
+
+/* change background texture without background color */
+/*body { 
+	background: url(../demo/images/pattern-7.png); 
+}*/
+
+/* change background with an image */
+/*body { 
+	background: url(../demo/images/body-wallpaper1.jpg); 
+}*/
+
+/* menu align to left and logo to right */
+/*.logo {
+	top:-14px;
+	left:760px;
+}
+#nav {
+	float:left;
+	margin-left: 30px;
+}*/
+
+/* change menu background opacity from 1 to 0.9 */
+/*#header {
+	background: url(../images/svg-gradient.svg);
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(53, 56, 60, 0.9)), to(rgba(34, 37, 40, 0.9)));
+	background: -moz-linear-gradient(rgba(53, 56, 60, 0.9), rgba(34, 37, 50, 0.9));
+	background: -o-linear-gradient(top left,rgba(53,56,60,0.9),rgba(34,37,50,0.9));
+}*/
+
+/* change menu background opacity to 0.8 */
+/*#header {
+	background: url(../images/svg-gradient.svg);
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(53, 56, 60, 0.8)), to(rgba(34, 37, 40, 0.8)));
+	background: -moz-linear-gradient(rgba(53, 56, 60, 0.8), rgba(34, 37, 50, 0.8));
+	background: -o-linear-gradient(top left,rgba(53,56,60,0.8),rgba(34,37,50,0.8));
+}*/

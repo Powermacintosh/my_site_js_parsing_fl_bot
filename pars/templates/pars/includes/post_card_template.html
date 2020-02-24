@@ -1,0 +1,30 @@
+
+<tr>
+	<th id="noborder">{{ f.show }}</th>
+</tr>
+
+<td>
+	<h1>
+		{% if f.image %}
+	    <img src="{{ f.image.url }}" height="20" align="center"></img>
+		{% endif %}
+	</h1>
+	<p>		
+		<p align="left" style="width:550px; overflow: hidden; white-space: pre-line;">
+			{{ f.ref_link }}
+		</p>
+	</p>
+	<a href="{{ f.get_absolute_url }}">Подробности // </a>
+	<a href="{{ f.link }}">Перейти на страницу заказа</a>
+	<h1></h1>
+	<p align="center">
+		Tags:
+		{% for tag in f.tags.all %}
+		<a href="{{ tag.get_absolute_url }}">Теги</a>
+		{% endfor %}
+	</p>
+	<div style="clear: both">
+		<p style="float: left">{{ f.price }}</p>
+		<p style="float: right">{{ f.date_p }} {{ f.time_p }}</p>
+	</div>
+</td>

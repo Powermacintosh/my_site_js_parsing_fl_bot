@@ -1,0 +1,5 @@
+{% extends "base.html" %}
+
+{% block admin-panel %}
+	<a href="{{ admin_object.get_update_url }}" class="btn btn-light edit" style="{% if detail %}display: block;{% endif %}">Update</a>
+{% endblock %}
